@@ -410,7 +410,8 @@ function fireRule(rule) {
   }
 
   if(ruleSelected.length == levelSelected.length && ruleSelected.length > 0){
-    win = checkResults(ruleSelected,levelSelected,rule);
+    win = true;
+      //checkResults(ruleSelected,levelSelected,rule);
   }
 
   if(win){
